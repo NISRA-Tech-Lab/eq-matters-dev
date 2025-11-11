@@ -56,10 +56,6 @@
           </div>
           <div id="dashboard-title-container">
             <h1 id="dashboard-title">Equality Matters</h1>
-            <span id="dashboard-subtitle">Access equality data across a range of <br>key measures for Northern Ireland</span>
-          </div>
-          <div id = "about">
-              <button class="about-btn" name = "aboutbutton" alt="Home" onclick="window.location.href='about.html';">About Equality Matters</button>
           </div>
         </div>
       </div>
@@ -90,7 +86,10 @@
             <div id="main-content" class="screen">
 
                 <div class="intro">
-      <nav id="breadcrumb" class="breadcrumb"></nav>
+                  <div class = "breadcrumb-about-div">
+                    <nav id="breadcrumb" class="breadcrumb"></nav>
+                    <button class="btn about-btn" name = "aboutbutton" alt="Home" onclick="window.location.href='about.html';">About Equality Matters</button>
+                  </div>
 
                   <h2 style="margin-bottom: 30px;"><span class = "measure_title"></span> by <span class = "eq_grp_name"></span></h2>
                   <h3>How do we measure this?</h3>                  
@@ -220,7 +219,7 @@
           <div class="home-side-bottom">
             <form>
             <div class="div-style-bar" id ="all-meas-btn" style="padding: 2.8rem;">
-              <button class="all-measures-btn" name = "allmeasures" style="margin-left: 0.4rem;">View all available measures</button>
+              <button class="btn all-measures-btn" name = "allmeasures" style="margin-left: 0.4rem;">View all available measures</button>
             </div>
             </form>
           </div>
@@ -240,6 +239,10 @@
         </div>
 
   <div class="main-body">
+  <div class = "breadcrumb-about-div">
+    <nav id="breadcrumb" class="breadcrumb"></nav>
+    <button class="btn about-btn" name = "aboutbutton" alt="Home" onclick="window.location.href='about.html';">About Equality Matters</button>
+  </div>
   <h2 style="text-align: center; margin-top: 20px;">Welcome to the All Measures Page</h2>
   <h5 style="text-align: center;">Click V in the matrix below to view the equality statistics.</h5>
   <h5 style="text-align: center;">If a cell is empty, equality statistics are not currently available.</h5>
@@ -303,164 +306,23 @@
         </div>
            
         <div class="main-body">
+
+        <div class = "breadcrumb-about-div">
+          <nav id="breadcrumb" class="breadcrumb"></nav>
+          <button class="btn about-btn" name = "aboutbutton" alt="Home" onclick="window.location.href='about.html';">About Equality Matters</button>
+        </div>
         <h2 id="selection-heading" style="text-align: center; margin-top: 20px;"></h2>
         
         <form>
-          <div class="container mt-4" style="margin-bottom: 700px;">
-            <!-- Masonry container -->
-            <div id="buttonAccordion" class="masonry-cols">
-              <!-- Parent 1 -->
-              <div class="masonry-item">
-                <div class="card h-100">
-                  <div class="card-header p-0">
-                      <button
-                        name = "key"
-                        value= "artc"
-                        class="btn btn-outline-primary btn-block"
-                      >
-                        Arts and Culture participation
-                      </button>
-                  </div>
-                </div>
-              </div>
-              <!-- Parent 2 -->
-              <div class="masonry-item">
-                <div class="card h-100">
-                  <div class="card-header p-0" id="headingOne">
-                    <h5 class="mb-0">
-                      <button
-                        class="btn btn-primary btn-block text-left btn-accordion"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#collapseOne"
-                        aria-expanded="false"
-                        aria-controls="collapseOne"
-                      >
-                        Economic Activity
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
-                    <div class="card-body p-2">
-                      <div class="child-grid">
-                        <button name= "key" value = "c5011" class="btn btn-outline-primary btn-block">In Employment</button>
-                        <button name= "key" value = "c5012" class="btn btn-outline-primary btn-block">Unemployed</button>
-                        <button name= "key" value = "c5013" class="btn btn-outline-primary btn-block">Economically Inactive</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Parent 3 -->
-              <div class="masonry-item">
-                <div class="card h-100">
-                  <div class="card-header p-0" id="headingTwo">
-                    <h5 class="mb-0">
-                      <button
-                        class="btn btn-primary btn-block text-left btn-accordion"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#collapseTwo"
-                        aria-expanded="false"
-                        aria-controls="collapseTwo"
-                      >
-                        General Health
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
-                    <div class="card-body p-2">
-                      <div class="child-grid">
-                        <button name= "key" value = "hsg1" class="btn btn-outline-primary btn-block">Very Good or Good</button>
-                        <button name= "key" value = "hsg2" class="btn btn-outline-primary btn-block">Bad or Very Bad</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Parent 4 -->
-              <div class="masonry-item">
-                <div class="card h-100">
-                  <div class="card-header p-0">
-                      <button
-                        name = "key"
-                        value= "lone"
-                        class="btn btn-outline-primary btn-block"
-                      >
-                        Loneliness
-                      </button>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Parent 5 -->
-              <div class="masonry-item">
-                <div class="card h-100">
-                  <div class="card-header p-0" id="headingThree">
-                    <h5 class="mb-0">
-                      <button
-                        class="btn btn-primary btn-block text-left btn-accordion"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#collapseThree"
-                        aria-expanded="false"
-                        aria-controls="collapseThree"
-                      >
-                        Industry of Employment
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree">
-                    <div class="card-body p-2">
-                      <div class="child-grid">
-                        <button name= "key" value = "c5021" class="btn btn-outline-primary btn-block">Agriculture, energy and water</button>
-                        <button name= "key" value = "c5022" class="btn btn-outline-primary btn-block">Manufacturing</button>
-                        <button name= "key" value = "c5023" class="btn btn-outline-primary btn-block">Construction</button>
-                        <button name= "key" value = "c5024" class="btn btn-outline-primary btn-block">Distribution, hotels and restaurants</button>
-                        <button name= "key" value = "c5025" class="btn btn-outline-primary btn-block">Transport and communications</button>
-                        <button name= "key" value = "c5026" class="btn btn-outline-primary btn-block">Financial, real estate, professional and administrative activities</button>
-                        <button name= "key" value = "c5027" class="btn btn-outline-primary btn-block">Public administration, education and health</button>
-                        <button name= "key" value = "c5028" class="btn btn-outline-primary btn-block">Other</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Parent 6 -->
-              <div class="masonry-item">
-                <div class="card h-100">
-                  <div class="card-header p-0" id="headingFour">
-                    <h5 class="mb-0">
-                      <button
-                        class="btn btn-primary btn-block text-left btn-accordion"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#collapseFour"
-                        aria-expanded="false"
-                        aria-controls="collapseFour"
-                      >
-                        Income Deprivation
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour">
-                    <div class="card-body p-2">
-                      <div class="child-grid">
-                        <button name= "key" value = "inc1" class="btn btn-outline-primary btn-block">Relative Poverty</button>
-                        <button name= "key" value = "inc2" class="btn btn-outline-primary btn-block">Absolute Poverty</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div id="new_button_container" class="container mt-4">
+          <div class="container mt-4">
+            <div class="row justify-content-center" id="buttonRow"></div>
+          </div>
           </div>
         </form>
 
         <form id = "selection-form-measure" style="list-style-type: none; padding: 0;">
-        <div id="key-metrics-container-inter"></div>
+        <div id="key-metrics-container-inter" style="display: none;"></div>
           <div id="grouped-container" style="display: none;"></div>
         </form>
         </div>
@@ -590,8 +452,9 @@
 
   // import data for use in charts - needs to be imported in each script
   import * as data from './data.js';
-  
+
   console.log("Dataset: ", data )
+
   const measure_code = Object.entries(data)
     .filter(([key, value]) => key.endsWith('_metadata') && value.dataset)
     .map(([_, value]) => value.dataset);
@@ -600,7 +463,6 @@
     
   const metadataEntries = Object.entries(data)
     .filter(([key, value]) => key.endsWith('_metadata') && value.dataset && value.title);
-
   const datasetsWithTitles = metadataEntries.map(([key, value]) => ({
     key,
     dataset: value.dataset,
@@ -971,12 +833,143 @@
 
 
 document.addEventListener('DOMContentLoaded', function () {  
-  
+
+    // Constructing all measures table
+  const exclusions = getS75ExclusionsFromLineData(data, invertedLookupEqCode);
+  console.log("Exclusions from all measures", exclusions);
+
+  // Dynamically build availableLinks
+  const availableLinks = {};
+
+  for (const measureKey in lookupTableMeasureTitle) {
+    availableLinks[measureKey] = [];
+
+    for (const groupKey in lookupTableDisplayGrp) {
+      const excluded = exclusions[measureKey]?.includes(groupKey);
+      if (!excluded) {
+        availableLinks[measureKey].push(groupKey);
+      }
+    }
+  }
+
+  console.log("Links", availableLinks)
+
+  let dataArray = [];
+
+fetch('./measure_group_lookup.json')
+  .then(response => response.json())
+  .then(measure_lookup => {
+    // Enrich the array
+    dataArray = measure_lookup.map(entry => ({
+      ...entry,
+      dataset: 'example',
+      s75_groups: availableLinks[entry.Code] || []
+    }));
+
+    console.log("Enriched", dataArray);
+
+    const selectedGroup = window_url.slice(window_url.indexOf("home=") + 5);
+    console.log("selectedGroup", selectedGroup)
+    const filtered = dataArray.filter(m => m.s75_groups.includes(selectedGroup));
+    console.log("Filtered", filtered);
+
+    renderButtons(filtered);
+  })
+  .catch(error => console.error('Error loading JSON:', error));
+
+      // Join the lookup into the enriched array
+      dataArray.forEach(measure => {
+        const code = measure.Code;
+        measure.s75_groups = availableLinks[code] || []; // Add s75_groups or empty array
+      });
+      
+    const selectedGroup = "disab";
+    const filtered = dataArray.filter(m => m.s75_groups.includes(selectedGroup))
+
+    function renderButtons(dataArray) {
+      const buttonRow = document.getElementById("buttonRow");
+      buttonRow.innerHTML = "";
+
+      const nestedGroups = {};
+      const nonNested = [];
+
+      dataArray.forEach(item => {
+        if (item.Nested === 'TRUE') {
+          if (!nestedGroups[item.Group]) nestedGroups[item.Group] = [];
+          nestedGroups[item.Group].push(item);
+        } else {
+          nonNested.push(item);
+        }
+      });
+
+      // Render non-nested buttons as individual cards
+      nonNested.forEach(item => {
+        buttonRow.innerHTML += `
+          <div class="col-md-4 mb-4 d-flex justify-content-center">
+            <div class="card w-100">
+              <div class="card-header p-0">
+                <button name="key" value="${item.Code}" class="btn btn-outline-primary btn-block">
+                  ${item.Measure_Name}
+                </button>
+              </div>
+            </div>
+          </div>
+        `;
+      });
+
+      // Render nested groups as collapsible cards
+      let collapseIndex = 0;
+      for (const [groupName, items] of Object.entries(nestedGroups)) {
+        const collapseId = `collapse${collapseIndex}`;
+        const headingId = `heading${collapseIndex}`;
+
+        let childButtons = items.map(item => `
+          <div class="col-md-12 mb-2">
+            <button name="key" value="${item.Code}" class="btn btn-outline-primary btn-block">
+              ${item.Measure_Name}
+            </button>
+          </div>
+        `).join("");
+
+        buttonRow.innerHTML += `
+          <div class="col-md-4 mb-4 d-flex justify-content-center">
+            <div class="card w-100">
+              <div class="card-header p-0" id="${headingId}">
+                <h5 class="mb-0">
+                  <button class="btn btn-primary btn-block text-left btn-accordion" type="button"
+                    data-toggle="collapse" data-target="#${collapseId}" aria-expanded="false" aria-controls="${collapseId}">
+                    ${groupName}
+                  </button>
+                </h5>
+              </div>
+              <div id="${collapseId}" class="collapse" aria-labelledby="${headingId}">
+                <div class="card-body p-2">
+                  <div class="row">
+                    ${childButtons}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+        collapseIndex++;
+      }
+    }
+
+
+  // // Add dataset to each measure_lookup entry
+  // const enriched_measure_lookup = measure_lookup.map(entry => ({
+  //   ...entry,
+  //   dataset: titleToDatasetMap[entry.Group] || null  // null if no match found
+  // }));
+
+  // console.log("enriched", enriched_measure_lookup);
+
   // Show the page when the script is done (prevents flickering)
   document.body.style.visibility = "visible"; 
 
   const searchBar = document.getElementById('search-bar');
-const dropdown = document.getElementById('dropdown');
+  const dropdown = document.getElementById('dropdown');
 
 searchBar.addEventListener('input', function () {
   const query = searchBar.value.toLowerCase();
@@ -1273,28 +1266,7 @@ console.log(`Rendering logo for category: "${cat}"`);
 console.log(`Resolved logo path: "${categoryIcons[cat]}"`)
 
 }
-
     
-  // Constructing all measures table
-  const exclusions = getS75ExclusionsFromLineData(data, invertedLookupEqCode);
-  console.log("Exclusions from all measures", exclusions);
-
-  // Dynamically build availableLinks
-  const availableLinks = {};
-
-  for (const measureKey in lookupTableMeasureTitle) {
-    availableLinks[measureKey] = [];
-
-    for (const groupKey in lookupTableDisplayGrp) {
-      const excluded = exclusions[measureKey]?.includes(groupKey);
-      if (!excluded) {
-        availableLinks[measureKey].push(groupKey);
-      }
-    }
-  }
-
-  console.log("Links", availableLinks)
-
   const table = document.getElementById('all-meas-tbl');
 
   // Create header row
@@ -1314,6 +1286,7 @@ console.log(`Resolved logo path: "${categoryIcons[cat]}"`)
   for (const measureKey in lookupTableMeasureTitle) {
     const row = document.createElement('tr');
     const tdTitle = document.createElement('td');
+    tdTitle.classList.add('wrap-cell');
     tdTitle.textContent = lookupTableMeasureTitle[measureKey][0];
     row.appendChild(tdTitle);
 
@@ -1955,6 +1928,7 @@ function getS75InclusionsFromLineData(data, invertedLookupEqCode) {
 
   function populateTable() {
     const tableBody = document.getElementById("dataTable").getElementsByTagName("tbody")[0];
+    dataTable.classList.add('dest-table');
     tableBody.innerHTML = "";
 
     // Ensure niAvgLine is treated as a single value (if it's not an array)
@@ -2049,6 +2023,7 @@ function getS75InclusionsFromLineData(data, invertedLookupEqCode) {
 
   function populateTable2() {
   const tableBody2 = document.getElementById("dataTable2").getElementsByTagName("tbody")[0];
+  dataTable2.classList.add('dest-table');
   tableBody2.innerHTML = "";
 
   // Replace the keys in the object with the new labels from the array
