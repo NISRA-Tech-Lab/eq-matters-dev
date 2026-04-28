@@ -24,6 +24,96 @@
     "Nested": "TRUE"
   },
   {
+    "Measure_Name": "Distance to place of study - All distances",
+    "Code": "c515all",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Distance to place of study - Study mainly at or from home; or study outside Northern Ireland or no fixed place of study",
+    "Code": "c5156",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Distance to place of study - Study within Northern Ireland: 10km to less than 20km",
+    "Code": "c5154",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Distance to place of study - Study within Northern Ireland: 20km and over",
+    "Code": "c5155",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Distance to place of study - Study within Northern Ireland: 2km to less than 5km",
+    "Code": "c5152",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Distance to place of study - Study within Northern Ireland: 5km to less than 10km",
+    "Code": "c5153",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Distance to place of study - Study within Northern Ireland: Less than 2km",
+    "Code": "c5151",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Distance to place of work - All distances",
+    "Code": "c514all",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Distance to place of work - Work mainly at or from home",
+    "Code": "c5141",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Distance to place of work - Work outside Northern Ireland or no fixed place of work",
+    "Code": "c5147",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Distance to place of work - Work within Northern Ireland: 10km to less than 20km",
+    "Code": "c5145",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Distance to place of work - Work within Northern Ireland: 20km and over",
+    "Code": "c5146",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Distance to place of work - Work within Northern Ireland: 2km to less than 5km",
+    "Code": "c5143",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Distance to place of work - Work within Northern Ireland: 5km to less than 10km",
+    "Code": "c5144",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Distance to place of work - Work within Northern Ireland: Less than 2km",
+    "Code": "c5142",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
     "Measure_Name": "Economic activity - All",
     "Code": "c501all",
     "Group": "Census ",
@@ -48,6 +138,18 @@
     "Nested": "TRUE"
   },
   {
+    "Measure_Name": "Economic inactivity",
+    "Code": "econ",
+    "Group": "Labour market status",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Employment rate",
+    "Code": "empr",
+    "Group": "Labour market status",
+    "Nested": "TRUE"
+  },
+  {
     "Measure_Name": "Encourage members of minority ethnic communities to participate in public life",
     "Code": "orgm",
     "Group": "Community",
@@ -60,15 +162,93 @@
     "Nested": "TRUE"
   },
   {
+    "Measure_Name": "General health - All health",
+    "Code": "c508all",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "General health - Bad or very bad health",
+    "Code": "c5083",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
     "Measure_Name": "General health - Bad/very bad",
     "Code": "hsg2",
     "Group": "Health conditions and disability ",
     "Nested": "TRUE"
   },
   {
+    "Measure_Name": "General health - Fair health",
+    "Code": "c5082",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "General health - Very good or good health",
+    "Code": "c5081",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
     "Measure_Name": "General health - Very good/good",
     "Code": "hsg1",
     "Group": "Health conditions and disability ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Good jobs",
+    "Code": "good",
+    "Group": "Jobs, redundancies and vacancies",
+    "Nested": "FALSE"
+  },
+  {
+    "Measure_Name": "Higher Level Apprenticeships in further education",
+    "Code": "sahl",
+    "Group": "Training and apprenticeships",
+    "Nested": "FALSE"
+  },
+  {
+    "Measure_Name": "Highest level of qualifications - All qualifications level",
+    "Code": "c507all",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Highest level of qualifications - Level 1: 1 to 4 GCSEs, O levels, CSEs (any grades); 1 AS Level; NVQ level 1; or equivalent",
+    "Code": "c5071",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Highest level of qualifications - Level 2: 5 or more GCSEs (A*-C or 9-4), O levels (passes) CSEs (grade 1); 1 A level, 2-3 AS Levels; NVQ level 2, BTEC General, City and Guilds Craft; or equivalent",
+    "Code": "c5072",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Highest level of qualifications - Level 3: 2 or more A Levels, 4 or more AS Levels; NVQ Level 3, BTEC National, OND, ONC, City and Guilds Advanced Craft; or equivalent",
+    "Code": "c5073",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Highest level of qualifications - Level 4 and above: Degree (BA, BSc), foundation degree, NVQ Level 4 and above, HND, HNC, professional qualifications (teaching or nursing, for example), or equivalent",
+    "Code": "c5074",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Highest level of qualifications - No qualifications",
+    "Code": "c5070",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Highest level of qualifications - Other: Apprenticeships; other qualifications, equivalent unknown",
+    "Code": "c5075",
+    "Group": "Census ",
     "Nested": "TRUE"
   },
   {
@@ -168,9 +348,117 @@
     "Nested": "TRUE"
   },
   {
+    "Measure_Name": "Knowledge of Irish - All abilites",
+    "Code": "c505all",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Knowledge of Irish - No ability in Irish",
+    "Code": "c5056",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Knowledge of Irish - Other combination of skills",
+    "Code": "c5055",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Knowledge of Irish - Speaks and reads but does not write Irish",
+    "Code": "c5053",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Knowledge of Irish - Speaks but does not read or write Irish",
+    "Code": "c5052",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Knowledge of Irish - Speaks, reads, writes and understands Irish",
+    "Code": "c5054",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Knowledge of Irish - Understands but does not read, write or speak Irish",
+    "Code": "c5051",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Knowledge of Ulster Scots - All abilites",
+    "Code": "c506all",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Knowledge of Ulster Scots - No ability in Ulster Scots",
+    "Code": "c5066",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Knowledge of Ulster Scots - Other combination of skills",
+    "Code": "c5065",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Knowledge of Ulster Scots - Speaks and reads but does not write Ulster Scots",
+    "Code": "c5063",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Knowledge of Ulster Scots - Speaks but does not read or write Ulster Scots",
+    "Code": "c5062",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Knowledge of Ulster Scots - Speaks, reads, writes and understands Ulster Scots",
+    "Code": "c5064",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Knowledge of Ulster Scots - Understands but does not read, write or speak Ulster Scots",
+    "Code": "c5061",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Level 2 qualifications",
+    "Code": "skil",
+    "Group": "Education and qualification levels",
+    "Nested": "FALSE"
+  },
+  {
     "Measure_Name": "Loneliness",
     "Code": "lone",
     "Group": "Individual wellbeing",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Long-term health problem or disability - All",
+    "Code": "c509all",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Long-term health problem or disability - Day-to-day activities limited",
+    "Code": "c5091",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Long-term health problem or disability - Day-to-day not limited",
+    "Code": "c5092",
+    "Group": "Census ",
     "Nested": "TRUE"
   },
   {
@@ -180,9 +468,219 @@
     "Nested": "TRUE"
   },
   {
+    "Measure_Name": "Main language - All languages",
+    "Code": "c504all",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Main language - Arabic",
+    "Code": "c5047",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Main language - Bulgarian",
+    "Code": "c5048",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Main language - Chinese (not otherwise specified)",
+    "Code": "c5049",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Main language - English",
+    "Code": "c5041",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Main language - Irish",
+    "Code": "c5044",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Main language - Lithuanian",
+    "Code": "c5043",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Main language - Other languages",
+    "Code": "c50410",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Main language - Polish",
+    "Code": "c5042",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Main language - Portuguese",
+    "Code": "c5046",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Main language - Romanian",
+    "Code": "c5045",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Method of travel to study - All methods of travel",
+    "Code": "c513all",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Method of travel to study - Bus, minibus or coach (public or private)",
+    "Code": "c5134",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Method of travel to study - Driving a car or van",
+    "Code": "c5132",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Method of travel to study - Mainly at or from home",
+    "Code": "c5131",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Method of travel to study - On foot",
+    "Code": "c5135",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Method of travel to study - Other method",
+    "Code": "c5136",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Method of travel to study - Passenger in a car or van",
+    "Code": "c5133",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Method of travel to work - All methods of travel",
+    "Code": "c512all",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Method of travel to work - Bus, minibus or coach (public or private)",
+    "Code": "c5124",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Method of travel to work - Driving a car or van",
+    "Code": "c5122",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Method of travel to work - Mainly at or from home",
+    "Code": "c5121",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Method of travel to work - On foot",
+    "Code": "c5125",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Method of travel to work - Other method",
+    "Code": "c5126",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Method of travel to work - Passenger in a car or van",
+    "Code": "c5123",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
     "Measure_Name": "Never smoked",
     "Code": "hsns",
     "Group": "Health behaviours",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Occupation - Administrative and secretarial occupations",
+    "Code": "c5114",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Occupation - All occupations",
+    "Code": "c511all",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Occupation - Associate professional and technical occupations",
+    "Code": "c5113",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Occupation - Caring, leisure and other service occupations",
+    "Code": "c5116",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Occupation - Elementary occupations",
+    "Code": "c5119",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Occupation - Managers, directors and senior officials",
+    "Code": "c5111",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Occupation - Process, plant and machine operatives",
+    "Code": "c5118",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Occupation - Professional occupations",
+    "Code": "c5112",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Occupation - Sales and customer service occupations",
+    "Code": "c5117",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Occupation - Skilled trades occupations",
+    "Code": "c5115",
+    "Group": "Census ",
     "Nested": "TRUE"
   },
   {
@@ -207,6 +705,36 @@
     "Measure_Name": "Primary, post primary and special schools - Total enrolment",
     "Code": "deste",
     "Group": "School enrolments ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Provision of unpaid care - All",
+    "Code": "c510all",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Provision of unpaid care - Provides 1-19 hours unpaid care per week",
+    "Code": "c5102",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Provision of unpaid care - Provides 20-49 hours unpaid care per week",
+    "Code": "c5103",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Provision of unpaid care - Provides 50+ hours unpaid care per week",
+    "Code": "c5104",
+    "Group": "Census ",
+    "Nested": "TRUE"
+  },
+  {
+    "Measure_Name": "Provision of unpaid care - Provides no unpaid care",
+    "Code": "c5101",
+    "Group": "Census ",
     "Nested": "TRUE"
   },
   {
